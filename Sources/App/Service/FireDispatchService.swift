@@ -40,6 +40,7 @@ struct FireDispatchService {
     
     // 업데이트 확인 및 로깅
     func checkForUpdates(newList: [FireDispatch], previousList: [FireDispatch], app: Application) -> Bool {
+        
         let newResponses = findNewResponses(newList: newList, previousList: previousList, app: app)
         for response in newResponses {
             app.logger.info("🚒🚒 \(response.centerName) 새로운 출동 발생")
