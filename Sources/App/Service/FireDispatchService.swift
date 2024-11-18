@@ -26,23 +26,14 @@ struct FireDispatchService {
         let originalResponse = try JSONDecoder().decode(OriginalResponse.self, from: responseData)
         
         return originalResponse.defail.map { original in
-            let state = switch original.progressStat {
-            case "A": "화재접수"
-            case "B": "출동"
-            case "C": "현장 도착"
-            case "F": "귀소"
-            case "E": "완진"
-            case "H": "잔불감시"
-            default: "알수 없는 상태"
-            }
             return FireDispatch(
-                centerName: original.cntrNm,
-                date: original.overDate,
-                state: state,
-                address: original.addr,
-                deadNum: original.dethNum,
-                injuryNum: original.injuNum,
-                sidoOvrNum: original.sidoOvrNum
+                centerName: original.cntrNm ?? "-",
+                date: original.overDate ?? "-",
+                state: original.progressNm ?? "-",
+                address: original.addr ?? "-",
+                deadNum: original.dethNum ?? 0,
+                injuryNum: original.injuNum ?? 0,
+                sidoOvrNum: original.sidoOvrNum ?? "-"
             )
         }
     }
