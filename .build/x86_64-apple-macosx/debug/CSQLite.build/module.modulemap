@@ -1,0 +1,4 @@
+module CSQLite {
+    umbrella "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/sqlite-nio/Sources/CSQLite/include"
+    export *
+}

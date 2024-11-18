@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/NIOSSLHTTP1Client.build/master.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSLHTTP1Client/main.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/NIOSSLHTTP1Client.build/main.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/NIOSSLHTTP1Client.build/main.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/NIOSSLHTTP1Client.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/NIOSSLHTTP1Client.build/main.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module _NIOFileSystem {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/_NIOFileSystem.build/_NIOFileSystem-Swift.h"
+    requires objc
+}

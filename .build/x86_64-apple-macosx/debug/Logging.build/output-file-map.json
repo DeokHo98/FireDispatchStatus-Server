@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/master.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/swift-log/Sources/Logging/Locks.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/Locks.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/Locks.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/Locks~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/Locks.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/swift-log/Sources/Logging/Logging.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/Logging.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/Logging.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/Logging~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/Logging.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/swift-log/Sources/Logging/MetadataProvider.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/MetadataProvider.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/MetadataProvider.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/MetadataProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/Logging.build/MetadataProvider.swiftdeps"
+  }
+}

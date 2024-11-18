@@ -17,6 +17,7 @@ struct CreateFireDispatch: AsyncMigration {
             .field("address", .string, .required)
             .field("dead_num", .int, .required)
             .field("injury_num", .int, .required)
+            .field("side_over_num", .string, .required)
             .create()
     }
     

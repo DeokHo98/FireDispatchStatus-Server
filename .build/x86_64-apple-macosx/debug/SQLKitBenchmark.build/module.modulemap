@@ -1,0 +1,4 @@
+module SQLKitBenchmark {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/SQLKitBenchmark-Swift.h"
+    requires objc
+}

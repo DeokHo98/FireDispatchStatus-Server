@@ -41,7 +41,8 @@ struct FireDispatchService {
                 state: state,
                 address: original.addr,
                 deadNum: original.dethNum,
-                injuryNum: original.injuNum
+                injuryNum: original.injuNum,
+                sidoOvrNum: original.sidoOvrNum
             )
         }
     }
@@ -50,18 +51,16 @@ struct FireDispatchService {
     func checkForUpdates(newList: [FireDispatch], previousList: [FireDispatch]) -> Bool {
         let newResponses = findNewResponses(newList: newList, previousList: previousList)
         for response in newResponses {
-            print("🚒 새로운 출동 발생: \(response.centerName)")
-            print("   위치: \(response.address)")
-            print("   시간: \(response.date)")
+            print("🚒🚒 \(response.centerName) 새로운 출동 발생")
+            print("위치: \(response.address) 시간: \(response.date)")
         }
         
         let stateChanges = findStateChanges(newList: newList, previousList: previousList)
         for change in stateChanges {
-            print("🔄 상태 변경 발생: \(change.centerName)")
-            print("   이전 상태: \(change.oldState)")
-            print("   새로운 상태: \(change.newState)")
+            print("🔄🔄 \(change.centerName) \(change.newState)")
+            print("위치: \(change.address) 시간: \(change.date)")
         }
-        return !newResponses.isEmpty && !stateChanges.isEmpty
+        return !newResponses.isEmpty || !stateChanges.isEmpty
     }
     
     private func findNewResponses(newList: [FireDispatch], previousList: [FireDispatch]) -> [FireDispatch] {
@@ -69,7 +68,8 @@ struct FireDispatchService {
             !previousList.contains { oldResponse in
                 oldResponse.centerName == newResponse.centerName &&
                 oldResponse.date == newResponse.date &&
-                oldResponse.address == newResponse.address
+                oldResponse.address == newResponse.address &&
+                oldResponse.sidoOvrNum == newResponse.sidoOvrNum
             }
         }
     }
@@ -81,13 +81,16 @@ struct FireDispatchService {
             if let oldResponse = previousList.first(where: {
                 $0.centerName == newResponse.centerName &&
                 $0.date == newResponse.date &&
-                $0.address == newResponse.address
+                $0.address == newResponse.address &&
+                $0.sidoOvrNum == newResponse.sidoOvrNum
             }) {
                 if oldResponse.state != newResponse.state {
                     changes.append(StateChange(
                         centerName: newResponse.centerName,
                         oldState: oldResponse.state,
-                        newState: newResponse.state
+                        newState: newResponse.state,
+                        address: newResponse.address,
+                        date: newResponse.date
                     ))
                 }
             }
@@ -102,5 +105,7 @@ extension FireDispatchService {
         let centerName: String
         let oldState: String
         let newState: String
+        let address: String
+        let date: String
     }
 }

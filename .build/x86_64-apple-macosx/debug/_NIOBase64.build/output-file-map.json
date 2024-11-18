@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/_NIOBase64.build/master.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/swift-nio/Sources/_NIOBase64/Base64.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/_NIOBase64.build/Base64.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/_NIOBase64.build/Base64.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/_NIOBase64.build/Base64~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/_NIOBase64.build/Base64.swiftdeps"
+  }
+}

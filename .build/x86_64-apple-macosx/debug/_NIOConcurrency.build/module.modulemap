@@ -1,0 +1,4 @@
+module _NIOConcurrency {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/_NIOConcurrency.build/_NIOConcurrency-Swift.h"
+    requires objc
+}

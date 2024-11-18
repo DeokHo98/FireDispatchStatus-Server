@@ -31,9 +31,12 @@ final class FireDispatch: Model, Content {
     @Field(key: "injury_num")
     var injuryNum: Int
     
+    @Field(key: "side_over_num")
+    var sidoOvrNum: String
+    
     init() {}
     
-    init(id: UUID? = nil, centerName: String, date: String, state: String, address: String, deadNum: Int, injuryNum: Int) {
+    init(id: UUID? = nil, centerName: String, date: String, state: String, address: String, deadNum: Int, injuryNum: Int, sidoOvrNum: String) {
         self.id = id
         self.centerName = centerName
         self.date = date
@@ -41,6 +44,7 @@ final class FireDispatch: Model, Content {
         self.address = address
         self.deadNum = deadNum
         self.injuryNum = injuryNum
+        self.sidoOvrNum = sidoOvrNum
     }
 }
 
@@ -51,6 +55,8 @@ struct FireDispatchResponse: Content {
     let address: String
     let deadNum: Int
     let injuryNum: Int
+    let sidoOvrNum: String
+
     
     init(from dispatch: FireDispatch) {
         self.centerName = dispatch.centerName
@@ -59,6 +65,7 @@ struct FireDispatchResponse: Content {
         self.address = dispatch.address
         self.deadNum = dispatch.deadNum
         self.injuryNum = dispatch.injuryNum
+        self.sidoOvrNum = dispatch.sidoOvrNum
     }
 }
 

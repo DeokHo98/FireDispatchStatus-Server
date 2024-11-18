@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/master.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/routing-kit/Sources/RoutingKit/AnyRouter.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/AnyRouter.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/AnyRouter.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/AnyRouter~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/AnyRouter.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/routing-kit/Sources/RoutingKit/Parameters.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/Parameters.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/Parameters.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/Parameters~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/Parameters.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/routing-kit/Sources/RoutingKit/PathComponent.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/PathComponent.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/PathComponent.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/PathComponent~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/PathComponent.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/routing-kit/Sources/RoutingKit/Router.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/Router.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/Router.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/Router~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/Router.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/routing-kit/Sources/RoutingKit/TrieRouter.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/TrieRouter.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/TrieRouter.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/TrieRouter~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/RoutingKit.build/TrieRouter.swiftdeps"
+  }
+}

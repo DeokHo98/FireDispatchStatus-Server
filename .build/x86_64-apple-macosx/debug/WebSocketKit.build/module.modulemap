@@ -1,0 +1,4 @@
+module WebSocketKit {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketKit-Swift.h"
+    requires objc
+}

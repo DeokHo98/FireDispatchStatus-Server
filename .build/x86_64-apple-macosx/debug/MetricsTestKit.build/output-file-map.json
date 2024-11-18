@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/MetricsTestKit.build/master.swiftdeps"
+  },
+  "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/swift-metrics/Sources/MetricsTestKit/TestMetrics.swift": {
+    "dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/MetricsTestKit.build/TestMetrics.d",
+    "object": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/MetricsTestKit.build/TestMetrics.swift.o",
+    "swiftmodule": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/MetricsTestKit.build/TestMetrics~partial.swiftmodule",
+    "swift-dependencies": "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/MetricsTestKit.build/TestMetrics.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module FluentSQLiteDriver {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteDriver-Swift.h"
+    requires objc
+}

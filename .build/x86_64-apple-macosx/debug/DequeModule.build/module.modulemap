@@ -1,0 +1,4 @@
+module DequeModule {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/DequeModule.build/DequeModule-Swift.h"
+    requires objc
+}

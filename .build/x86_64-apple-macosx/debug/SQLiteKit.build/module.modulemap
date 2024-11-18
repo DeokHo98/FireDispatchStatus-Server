@@ -1,0 +1,4 @@
+module SQLiteKit {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/SQLiteKit.build/SQLiteKit-Swift.h"
+    requires objc
+}

@@ -19,6 +19,7 @@ struct OriginalDetail: Codable {
     let addr: String
     let dethNum: Int
     let injuNum: Int
+    let sidoOvrNum: String
 }
 
 

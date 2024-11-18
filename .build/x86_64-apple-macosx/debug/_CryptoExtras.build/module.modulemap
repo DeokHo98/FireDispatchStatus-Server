@@ -1,0 +1,4 @@
+module _CryptoExtras {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/_CryptoExtras.build/_CryptoExtras-Swift.h"
+    requires objc
+}

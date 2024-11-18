@@ -1,0 +1,4 @@
+module ConsoleKit {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/ConsoleKit.build/ConsoleKit-Swift.h"
+    requires objc
+}

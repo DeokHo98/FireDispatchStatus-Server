@@ -1,0 +1,4 @@
+module CNIOExtrasZlib {
+    umbrella header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+    export *
+}

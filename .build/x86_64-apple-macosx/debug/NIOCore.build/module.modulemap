@@ -1,0 +1,4 @@
+module NIOCore {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/NIOCore.build/NIOCore-Swift.h"
+    requires objc
+}

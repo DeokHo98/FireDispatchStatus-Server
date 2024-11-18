@@ -1,0 +1,4 @@
+module SQLiteNIO {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/SQLiteNIO-Swift.h"
+    requires objc
+}

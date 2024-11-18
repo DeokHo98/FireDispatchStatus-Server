@@ -1,0 +1,4 @@
+module CNIOSHA1 {
+    umbrella header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+    export *
+}

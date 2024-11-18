@@ -1,0 +1,4 @@
+module XCTFluent {
+    header "/Users/jeongdeokho/Desktop/FireDispatchStatus-Server/.build/x86_64-apple-macosx/debug/XCTFluent.build/XCTFluent-Swift.h"
+    requires objc
+}
