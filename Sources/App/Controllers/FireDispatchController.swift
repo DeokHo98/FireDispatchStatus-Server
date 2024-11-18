@@ -20,10 +20,10 @@ struct FireDispatchController {
             let service = FireDispatchService()
             let currentList = try await service.fetchCurrentData(app: app)
             let previousList = try await FireDispatch.query(on: app.db).all()
-          
+            app.logger.info("이전 데이터: \(previousList.count)개")
             // 상태 변경 확인 및 로깅
             if service.checkForUpdates(newList: currentList, previousList: previousList, app: app) {
-                app.logger.info("이전 데이터: \(previousList.count)개")
+          
                 app.logger.info("업데이트 데이터: \(currentList.count)개")
                 // 데이터베이스 업데이트
                 try await FireDispatch.query(on: app.db).delete()
