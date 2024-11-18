@@ -39,22 +39,22 @@ struct FireDispatchService {
     }
     
     // 업데이트 확인 및 로깅
-    func checkForUpdates(newList: [FireDispatch], previousList: [FireDispatch]) -> Bool {
-        let newResponses = findNewResponses(newList: newList, previousList: previousList)
+    func checkForUpdates(newList: [FireDispatch], previousList: [FireDispatch], app: Application) -> Bool {
+        let newResponses = findNewResponses(newList: newList, previousList: previousList, app: app)
         for response in newResponses {
-            print("🚒🚒 \(response.centerName) 새로운 출동 발생")
-            print("위치: \(response.address) 시간: \(response.date)")
+            app.logger.info("🚒🚒 \(response.centerName) 새로운 출동 발생")
+            app.logger.info("위치: \(response.address) 시간: \(response.date)")
         }
         
         let stateChanges = findStateChanges(newList: newList, previousList: previousList)
         for change in stateChanges {
-            print("🔄🔄 \(change.centerName) \(change.newState)")
-            print("위치: \(change.address) 시간: \(change.date)")
+            app.logger.info("🔄🔄 \(change.centerName) \(change.newState)")
+            app.logger.info("위치: \(change.address) 시간: \(change.date)")
         }
         return !newResponses.isEmpty || !stateChanges.isEmpty
     }
     
-    private func findNewResponses(newList: [FireDispatch], previousList: [FireDispatch]) -> [FireDispatch] {
+    private func findNewResponses(newList: [FireDispatch], previousList: [FireDispatch], app: Application) -> [FireDispatch] {
         return newList.filter { newResponse in
             !previousList.contains { oldResponse in
                 oldResponse.centerName == newResponse.centerName &&
