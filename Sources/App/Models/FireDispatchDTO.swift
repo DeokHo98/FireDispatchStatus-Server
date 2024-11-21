@@ -16,10 +16,12 @@ struct OriginalDetail: Codable {
     let cntrNm: String?
     let overDate: String?
     let progressNm: String?
+    let progressStat: String?
     let addr: String?
     let dethNum: Int?
     let injuNum: Int?
     let sidoOvrNum: String?
+    let frfalTypeCd: String?
 }
 
 

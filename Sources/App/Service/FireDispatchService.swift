@@ -28,8 +28,10 @@ struct FireDispatchService {
         return originalResponse.defail.map { original in
             return FireDispatch(
                 centerName: original.cntrNm ?? "-",
-                date: original.overDate ?? "-",
-                state: original.progressNm ?? "-",
+                date: getDateString(original.overDate ?? "-"),
+                state: getStateString(stateCode: original.progressStat ?? "-",
+                                      state: original.progressNm ?? "-",
+                                      frfalType: original.frfalTypeCd),
                 address: original.addr ?? "-",
                 deadNum: original.dethNum ?? 0,
                 injuryNum: original.injuNum ?? 0,
@@ -89,6 +91,35 @@ struct FireDispatchService {
         }
         
         return changes
+    }
+    
+    private func getDateString(_ date: String) -> String {
+        let inputFormatter = DateFormatter()
+        inputFormatter.dateFormat = "HH:mm"
+        let outputFormatter = DateFormatter()
+        outputFormatter.dateFormat = "HH시 mm분"
+        guard let formatedDate = inputFormatter.date(from: date) else { return date }
+        return outputFormatter.string(from: formatedDate)
+    }
+    
+    private func getStateString(stateCode: String, state: String, frfalType: String?) -> String {
+        var string = ""
+        switch stateCode {
+        case "A":
+            string = "화재접수"
+        case "B":
+            string = "화재출동"
+        case "C":
+            string = "현장도착"
+        case "F":
+            string = "귀소"
+        case "H":
+            string = "잔불감시"
+        default:
+            string = state
+        }
+        guard let frfalType, !frfalType.isEmpty else { return string }
+        return string + " (\(frfalType))"
     }
 }
 
