@@ -13,7 +13,8 @@ let package = Package(
         // Fluent
         .package(url: "https://github.com/vapor/fluent.git", from: "4.0.0"),
         // SQLite 드라이버
-        .package(url: "https://github.com/vapor/fluent-sqlite-driver.git", from: "4.0.0")
+        .package(url: "https://github.com/vapor/fluent-sqlite-driver.git", from: "4.0.0"),
+        .package(url: "https://github.com/MihaelIsaev/FCM.git", from: "2.13.0")
     ],
     targets: [
         .executableTarget(
@@ -23,7 +24,8 @@ let package = Package(
                 .product(name: "NIOCore", package: "swift-nio"),
                 .product(name: "NIOPosix", package: "swift-nio"),
                 .product(name: "Fluent", package: "fluent"),
-                .product(name: "FluentSQLiteDriver", package: "fluent-sqlite-driver")
+                .product(name: "FluentSQLiteDriver", package: "fluent-sqlite-driver"),
+                .product(name: "FCM", package: "FCM")
             ],
             swiftSettings: swiftSettings
         ),

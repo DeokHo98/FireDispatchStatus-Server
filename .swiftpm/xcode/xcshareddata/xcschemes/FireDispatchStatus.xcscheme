@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1530"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "App"
+               BuildableName = "App"
+               BlueprintName = "App"
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "App"
+            BuildableName = "App"
+            BlueprintName = "App"
+            ReferencedContainer = "container:">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "FCM_SERVICE_ACCOUNT_KEY"
+            value = "{&#10;  &quot;type&quot;: &quot;service_account&quot;,&#10;  &quot;project_id&quot;: &quot;firedispatchstate&quot;,&#10;  &quot;private_key_id&quot;: &quot;c144b204b1fb706dfd38b32174bb5052362e51dd&quot;,&#10;  &quot;private_key&quot;: &quot;-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAFiMuZmbE+s4N\nmRYXBu/k8Y7/gefky788kZg+7KZpWsX1D7+RVehDhAGAdwlZWIDnhgEG0GKRsKou\nkxl2qybQCll3/R5CZlpO6nBgvYYuvZ2sBOTHdUmxLY0hKtZgQRwm9PABA7wPb78S\nftsVZBSHb2HRfpptVR7j1lz6ElaKnAZwOcBVzd4/mR38C0kSiAmeWmfRWg5Gfm5Z\ntN5KvB1+zIg1zmI0D2Sj4YYIo2lt28CiO8B7XVVPQbkakvezJTagdUzpLsFBhJlW\n3za+ZVVV8RHVxS3DmcTueMokbM3WFcAexVoRctg+Gg0WjoIjRZS76f31QgfwNT/6\niRh2DpyDAgMBAAECggEAEhXjgRpmIbTFktUvlcJy8tjlkFwQU+P1IQRKU95fOrsv\nuUeez1XJ1RWIOKq8iBuDo4jj7trO9Q2vsEvsUVaDBIJ88wWzhCfz58s+AnXFvP/g\naRJa4gbChfqWd6F7ZruqpWZZdJb/7WolkN29zfFK14eeq6Vib9ncWzJTNb5lRI6L\nN/q7E/TGbqTvuhRyNTWZm8+Ti1TCzKLObk6ByskFSolbcpjENJvzcm81rtRnMyeP\nPNG+kDltEiBgykg/o0A0PPHbt5ApMloK2mOE6nk/C+/LB7CKCtCn2PQCfGpV5ivR\nrP8HsxYqrcbpL1kl5XLPyWKMWWqosidQAxuglOkvhQKBgQD1yNkumT77wW3xqpzo\nfU5iF1DjMdwo86ebH8i2UUrtZmDTUy+eifK60axhN+ihaSrXDawnSAPyCS9xcVe8\nDuCKjqMgCg+egz1TnmES6IGaVHiq4awrZeS5PtRqgBMc6sRqE+uS3cg3bZUF8RGN\ns/JWG6ifjz5QRT7l9w51xw8H7wKBgQDIEfDHOisXNNLkgI3VcodZBALi0yGfJsEK\nkPIQZbD+KZx53vCLeXtbVMNRPz/Uy02DJvN8KRTWe6JZeS/eYJZsllQrnAUx8rAv\nsYyAuhC5HEctqOCox4NwuZWV89kmKcoHvfHVOEb2skrH3e2/8uplON/yI0Krn5gl\nmN7cqT3ArQKBgQCAIiNHLdEuAltE38NJWPoiHTGoH/g8yTmZn2pN0feT6AmWYgmz\nRwtp5aFOVY1LiL4yuwgCuoKEDdHT/FjWy5K36UCVlWkrJBQ2oZzN9LSMNnlp7JiL\nT2V8RYsLspVEQAgBnTz0pfaZHuHP5StXinZN+cFg3ZaI1nDCBphdQldNtQKBgG7L\naKCbuOM4EJYUDvemXgfQrdx4+YSOTJcSX8ru1c5astnWuTU0CDkyvptOwIWSNJGt\nz2bxxSVmACk2cGjg6kymD2S7GTFo6WLwGxPqdnpci5pgjFFLc6HIVGtfR+DXgZc5\n/COM79eMMtduMkx7NIzrqzEHj9NFJVekyb4/RwBdAoGASNwtK98Fal6HMxQSwdcK\nDSqgARodY/3/TdQo84hVlkM6groAbFz615ww+KRt4pfMIlc7FssHG6WLnx0vElRF\nmKpiLAAqBfh7j6zfFV46iu1J8s8aEM5ebTi0r2RiHD9Y/BBkV6EUbIHwmba372uG\nm95UqWAVaXzQtlywHT5wRbM=\n-----END PRIVATE KEY-----\n&quot;,&#10;  &quot;client_email&quot;: &quot;firebase-adminsdk-r79tt@firedispatchstate.iam.gserviceaccount.com&quot;,&#10;  &quot;client_id&quot;: &quot;116935327146060697839&quot;,&#10;  &quot;auth_uri&quot;: &quot;https://accounts.google.com/o/oauth2/auth&quot;,&#10;  &quot;token_uri&quot;: &quot;https://oauth2.googleapis.com/token&quot;,&#10;  &quot;auth_provider_x509_cert_url&quot;: &quot;https://www.googleapis.com/oauth2/v1/certs&quot;,&#10;  &quot;client_x509_cert_url&quot;: &quot;https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-r79tt%40firedispatchstate.iam.gserviceaccount.com&quot;,&#10;  &quot;universe_domain&quot;: &quot;googleapis.com&quot;&#10;}"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "App"
+            BuildableName = "App"
+            BlueprintName = "App"
+            ReferencedContainer = "container:">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

@@ -7,6 +7,7 @@
 
 import Vapor
 import Fluent
+import FCM
 
 struct FireDispatchService {
     // API 데이터 가져오기
@@ -42,13 +43,16 @@ struct FireDispatchService {
     
     // 업데이트 확인 및 로깅
     func checkForUpdates(newList: [FireDispatch], previousList: [FireDispatch], app: Application) -> Bool {
+        if !previousList.isEmpty && newList.isEmpty {
+            return true
+        }
         
         let newResponses = findNewResponses(newList: newList, previousList: previousList, app: app)
         for response in newResponses {
             app.logger.info("🚒🚒 \(response.centerName) 새로운 출동 발생")
             app.logger.info("위치: \(response.address) 시간: \(response.date)")
         }
-        
+  
         let stateChanges = findStateChanges(newList: newList, previousList: previousList)
         for change in stateChanges {
             app.logger.info("🔄🔄 \(change.centerName) \(change.newState)")
@@ -120,6 +124,38 @@ struct FireDispatchService {
         }
         guard let frfalType, !frfalType.isEmpty else { return string }
         return string + " (\(frfalType))"
+    }
+    
+    private func sendFCMNewFire(model: FireDispatch, app: Application) {
+//        let token = "coKNBm8uTUbDkpQpvIMRw8:APA91bGhfbO5gZAIF8dZ9EU6HfSFkKKKGqjjwlUa7iRcvJy3CyD3Rh3WNreZh4sJRmBh7DUBPxm2K0OJw_TmRigSla-w5k_PhF-dRrvoAP6AOWfI7LWcj78"
+//        let notification = FCMNotification(
+//            title: "🚒🚒 \(model.centerName)",
+//            body: "새로운 화재신고가 접수 되었습니다.\n주소: \(model.address)"
+//        )
+//        let message = FCMMessage(token: token, notification: notification)
+//        let sendResult = app.fcm.send(message)
+//        sendResult.whenSuccess { response in
+//            app.logger.info("새로운화재 푸시 전송 성공: \(response)")
+//        }
+//        sendResult.whenFailure { error in
+//            app.logger.error("새로운 화재 푸시 전송 실패: \(error.localizedDescription)")
+//        }
+    }
+    
+    private func sendFCMUpdateFire(model: StateChange, app: Application) {
+//        let token = "coKNBm8uTUbDkpQpvIMRw8:APA91bGhfbO5gZAIF8dZ9EU6HfSFkKKKGqjjwlUa7iRcvJy3CyD3Rh3WNreZh4sJRmBh7DUBPxm2K0OJw_TmRigSla-w5k_PhF-dRrvoAP6AOWfI7LWcj78"
+//        let notification = FCMNotification(
+//            title: "🔄🔄 \(model.centerName)",
+//            body: "\(model.oldState) -> \(model.newState)\n주소: \(model.address)"
+//        )
+//        let message = FCMMessage(token: token, notification: notification)
+//        let sendResult = app.fcm.send(message)
+//        sendResult.whenSuccess { response in
+//            app.logger.info("상태변경 푸시 전송 성공: \(response)")
+//        }
+//        sendResult.whenFailure { error in
+//            app.logger.error("상태변경 푸시 전송 실패: \(error.localizedDescription)")
+//        }
     }
 }
 

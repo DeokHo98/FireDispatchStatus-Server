@@ -1,5 +1,5 @@
 {
-  "originHash" : "986e00da6d379f6b308dbf6919c7c1f73eb8314b78ec695fff6daa64bca7b9f4",
+  "originHash" : "c2b7999896a2d7dacaa32b8309607f89d6b9c8f25707828e89ee8be962be0f13",
   "pins" : [
     {
       "identity" : "async-http-client",
@@ -29,6 +29,15 @@
       }
     },
     {
+      "identity" : "fcm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MihaelIsaev/FCM.git",
+      "state" : {
+        "revision" : "e80bb2550ae2b6ea33d521943d81de859002144b",
+        "version" : "2.13.1"
+      }
+    },
+    {
       "identity" : "fluent",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vapor/fluent.git",
@@ -53,6 +62,24 @@
       "state" : {
         "revision" : "6e3a5ff7f2cb733771a6bd71dd3a491cce79f24d",
         "version" : "4.8.0"
+      }
+    },
+    {
+      "identity" : "jwt",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vapor/jwt.git",
+      "state" : {
+        "revision" : "d65f32bfd08fae5910d603028be5dec4f35b3482",
+        "version" : "4.2.2"
+      }
+    },
+    {
+      "identity" : "jwt-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vapor/jwt-kit.git",
+      "state" : {
+        "revision" : "13e7513b3ba0afa13967daf77af2fb4ad087306c",
+        "version" : "4.13.5"
       }
     },
     {
